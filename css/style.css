@@ -98,7 +98,6 @@ section {
 .boxed {
     max-width: 1250px;
     margin: auto;
-    border: 1px dashed black;
 }
 
 .bigbox {
@@ -141,17 +140,44 @@ h2 {
     opacity: 0.04;
 }
 
-.bigbox:nth-of-type(odd) {
-    border-right: 2px dashed black;
-}
-
-.bigbox:nth-of-type(even) {
-    border-left: 2px dashed black;
-}
-
 .greenBox {
-    background-color: #228b22;
-    min-height: 935px;
+    text-align: center;
+    padding: auto;
+}
+
+.greenBox > h2 {
+    text-align: center;
+}
+
+.greenBox > p {
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-top: 2rem;
+}
+
+h3 {
+    font-size: 22px;
+    background-image: url(../img/stars.svg);
+    padding-top: 40px;
+}
+
+.downloadBox {
+    width: 530px;
+    margin: auto;
+}
+
+.mainButton {
+    margin: 50px auto 100px;
+    padding: 20px 35px;
+    font-size: 16px;
+    border-radius: 50px;
+    border: none;
+    background-color: #8ea1e1;
+    color: white;
+}
+
+#bigImg {
+    width: 100%;
 }
 
 footer {
@@ -212,3 +238,6 @@ footer .flexContainer {
     background-color: #7fffd4;
     margin-top: 1.5rem;
 }
+
+
+

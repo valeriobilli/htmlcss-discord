@@ -155,7 +155,7 @@ h2 {
     margin-top: 2rem;
 }
 
-h3 {
+.downloadBox > h3 {
     font-size: 22px;
     background-image: url(../img/stars.svg);
     padding-top: 40px;
@@ -190,13 +190,22 @@ footer > .boxed {
 }
 
 .firstColumn, .secondColumn {
+    margin-top: 80px;
     min-height: 600px;
 }
 
 .firstColumn {
-    background-color: #f08080;
     width: 30%;
-    border: 1px dashed black;
+}
+
+.firstColumn > h3 {
+    color: #738adc;
+    font-size: 25px;
+    margin-bottom: 1.5rem;
+}
+
+#logoita {
+    width: 20px;
 }
 
 .secondColumn {
@@ -238,6 +247,3 @@ footer .flexContainer {
     background-color: #7fffd4;
     margin-top: 1.5rem;
 }
-
-
-

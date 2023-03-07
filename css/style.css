@@ -8,6 +8,7 @@ header {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     padding-top: 1em;
+    margin-bottom: 100px;
 }
 
 nav {
@@ -91,8 +92,7 @@ nav button {
 }
 
 section {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
 }
 
 .boxed {
@@ -131,8 +131,14 @@ h2 {
     margin-top: 1rem;
 }
 
-section:nth-child(even) {
-    background-color: #d3d3d3;
+.bgGray {
+    background-color: #f6f6f6;
+}
+
+#wave {
+    width: 100%;
+    opacity: 0.04;
+    display: block;
 }
 
 .bigbox:nth-of-type(odd) {

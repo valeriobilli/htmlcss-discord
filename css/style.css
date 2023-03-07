@@ -9,6 +9,7 @@ header {
     background-size: cover;
     padding-top: 1em;
     margin-bottom: 100px;
+    min-height: 600px;
 }
 
 nav {
@@ -246,9 +247,12 @@ footer .flexContainer {
     min-height: 400px;
 }
 
-
+button:hover {
+    box-shadow: -webkit-box-shadow: 1px 1px 11px 3px rgba(0,0,0,0.59); 
+    box-shadow: 1px 1px 11px 3px rgba(0,0,0,0.59);
+    cursor: pointer;
+}
    
-
 #lastbox {
     display: flex;
     justify-content: space-between;

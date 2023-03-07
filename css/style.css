@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #add8e6;
+    padding-top: 1em;
+}
+
+nav {
+    width: 65%;
+    margin: auto;
+    background-color: #daa520;
+    display: flex;
+    justify-content: space-between;
+    border: 1px dashed black;
+}
+
+nav > div {
+    padding: 1em;
+}
+
+#links {
+    width: 60%;
+    border-left: 2px dashed black;
+    border-right: 2px dashed black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.flexContainerLinks {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pinkBox {
+    background-color: #ee82ee;
+    max-width: 945px;
+    min-height: 415px;
+    margin: auto;
+    border: 1px dashed black;
+}
+
+.blueBox {
+    background-color: #00008b;
+    margin-top: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.boxed {
+    max-width: 1250px;
+    margin: auto;
+    border: 1px dashed black;
+}
+
+.bigbox {
+    width: 60%;
+    min-height: 520px;
+    background-color: #1e90ff;
+}
+
+.smallbox {
+    width: 40%;
+    background-color: #ffc0cb;
+    min-height: 520px;
+}
+
+section:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
+.bigbox:nth-of-type(odd) {
+    border-right: 2px dashed black;
+}
+
+.bigbox:nth-of-type(even) {
+    border-left: 2px dashed black;
+}
+
+.greenBox {
+    background-color: #228b22;
+    min-height: 935px;
+}
+
+footer {
+    background-color: #23272a;
+    padding-top: 10px;
+}
+
+footer > .boxed {
+    margin-bottom: 2rem;
+}
+
+.firstColumn, .secondColumn {
+    min-height: 600px;
+}
+
+.firstColumn {
+    background-color: #f08080;
+    width: 30%;
+    border: 1px dashed black;
+}
+
+.secondColumn {
+    background-color: #20b2aa;
+    width: 70%;
+    border: 1px dashed white;
+}
+
+hr {
+    color: white;
+}
+
+footer .flexContainer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.column {
+    width: calc(100% / 4);
+    border: 1px dashed white;
+    min-height: 600px;
+}
+
+#lastbox {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+}
+
+#logoFooter, #buttonFooter {
+    background-color: #ffb6c1;
+    border: 1px dashed black;
+}
+
+#lastbox {
+    border: none;
+    background-color: #7fffd4;
+    margin-top: 1.5rem;
+}

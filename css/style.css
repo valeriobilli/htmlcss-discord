@@ -8,7 +8,6 @@ header {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     padding-top: 1em;
-    min-height: 715px;
 }
 
 nav {
@@ -56,11 +55,11 @@ nav button {
 
 .presentation {
     max-width: 750px;
-    min-height: 415px;
+    min-height: 500px;
     font-size: 20px;
     color: white;
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .presentation > h1 {
@@ -86,10 +85,9 @@ nav button {
     color: white;
 }
 
-.blueBox {
-    margin-top: 1rem;
+.heroSection {
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 section {
@@ -106,13 +104,31 @@ section {
 .bigbox {
     width: 60%;
     min-height: 520px;
-    background-color: #1e90ff;
+}
+
+.bigbox > img {
+    width: 100%;
 }
 
 .smallbox {
     width: 40%;
-    background-color: #ffc0cb;
     min-height: 520px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: left;
+}
+
+.textBox {
+    width: 300px;
+    margin: 3em auto;
+}
+
+.textBox > p {
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-top: 1rem;
 }
 
 section:nth-child(even) {

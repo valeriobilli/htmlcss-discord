@@ -8,6 +8,7 @@ header {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     padding-top: 1em;
+    min-height: 715px;
 }
 
 nav {
@@ -35,7 +36,7 @@ a:hover {
 }
 
 nav button {
-    padding: 0.8em;
+    padding: 0.8em 1em;
     border-radius: 20px;
     border: none;
 }
@@ -53,12 +54,36 @@ nav button {
     align-items: center;
 }
 
-.pinkBox {
-    background-color: #ee82ee;
-    max-width: 945px;
+.presentation {
+    max-width: 750px;
     min-height: 415px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
     margin: auto;
-    border: 1px dashed black;
+}
+
+.presentation > h1 {
+    font-size: 50px;
+    margin-bottom: 55px;
+}
+
+.presentation > p {
+    line-height: 35px;
+    margin-bottom: 35px;
+}
+
+.headButton {
+    margin: 0px 15px;
+    padding: 20px 35px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+}
+
+.blackButton {
+    background-color: black;
+    color: white;
 }
 
 .blueBox {

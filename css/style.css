@@ -191,7 +191,7 @@ footer > .boxed {
 
 .firstColumn, .secondColumn {
     margin-top: 80px;
-    min-height: 600px;
+    min-height: 500px;
 }
 
 .firstColumn {
@@ -209,25 +209,45 @@ footer > .boxed {
 }
 
 .secondColumn {
-    background-color: #20b2aa;
     width: 70%;
-    border: 1px dashed white;
 }
 
-hr {
+.columnTitle {
+    font-weight: bold;
+    color: #738adc;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hr {
     color: white;
+    max-width: 1250px;
+    margin: auto;
 }
 
 footer .flexContainer {
     display: flex;
     justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .column {
     width: calc(100% / 4);
-    border: 1px dashed white;
-    min-height: 600px;
+    min-height: 200px;
 }
+
+.column2 {
+    width: calc(100% / 4);
+    min-height: 400px;
+}
+
+
+   
 
 #lastbox {
     display: flex;
@@ -237,13 +257,14 @@ footer .flexContainer {
     margin-bottom: 0;
 }
 
-#logoFooter, #buttonFooter {
-    background-color: #ffb6c1;
-    border: 1px dashed black;
+footer button {
+    padding: 0.8em 1em;
+    border-radius: 20px;
+    border: none;
+    background-color: #8ea1e1;
+    color: white;
 }
 
 #lastbox {
-    border: none;
-    background-color: #7fffd4;
-    margin-top: 1.5rem;
+    padding-bottom: 90px;
 }

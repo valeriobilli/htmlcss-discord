@@ -133,12 +133,18 @@ h2 {
 
 .bgGray {
     background-color: #f6f6f6;
+    padding-bottom: 0px;
 }
 
 .wave {
     width: 100%;
     display: block;
     opacity: 0.04;
+}
+
+#waveWhite {
+    color: white;
+    display: block;
 }
 
 .greenBox {

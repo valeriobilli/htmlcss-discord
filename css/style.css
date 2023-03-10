@@ -5,7 +5,7 @@
 }
 
 header {
-    background-image: url(../img/jumbo.png);
+    background-image: url("../img/jumbo.png");
     background-size: cover;
     padding-top: 1em;
     margin-bottom: 100px;
